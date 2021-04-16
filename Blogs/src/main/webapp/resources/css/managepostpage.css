@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* ----------------------------------- */
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 1300px;
+    background-color: white;
+}
+.header .blog{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 200%;
+    color: gray;
+}
+.header a{
+    font-weight: bold;
+    color: white !important;
+}
+.header a:hover{
+    font-weight: bold;
+    color: teal !important;
+    background-color: white;
+}
+.body-content{
+    margin-top: 90px;
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+}
+.navbar{
+    padding: 1px !important;
+}
+.body-content .body-content-left{
+    max-width: 100%;
+    min-width: 1000px;
+    left: 10px;
+    overflow:hidden;
+}
+.body-content .body-content-right{
+    width: 200px;
+    top: 110px;
+}
+.end{
+    padding: 20px;
+}
+.end-signature {
+    border-top: 2px solid gray;
+    text-align: center;
+}
+.menu, .tag-part, .recent-cmts{
+    background-color: rgba(0, 128, 128, 0.262);
+    border-radius: 3px;
+    font-size: 90%;
+}
+.title-tag{
+    background-color: rgba(0, 128, 128, 0.344);
+    border-left: 5px solid teal;
+    padding: 5px;
+    padding-left: 5px;
+}
+.menus, .tags, .cmts{
+    padding: 5px;
+}
+.page-direction{
+    font-size: 80%;
+}
+.manage{
+    padding-left: 20px;
+}
+.manage-title{
+    font-size: 200%;
+}
+.manage-content div{
+    font-size: 80%;
+    padding: 5px;
+    float: right;
+}
+.table th{
+    padding: 5px !important;
+    text-align: center;
+}
+.table a:hover{
+    text-decoration: none;
+}
+.table img{
+    width: 20px;
+    margin: 0px 5px;
+}
+.table .col-title{
+    max-width: 400px ;
+    word-wrap: break-word;
+}
+.table .col-status{
+    max-width: 200px ;
+    word-wrap: break-word;
+}
+.table .col-time{
+    max-width: 100px ;
+    word-wrap: break-word;
+}
+.table .col-option{
+    width: 130px ;
+    word-wrap: break-word;
+    align-items: center;
+}
+.delete:hover{
+    cursor: pointer;
+}
+#submit-approve{
+    float: right;
+}
+.col-status-cmt{
+    width: 200px !important;
+}
+.col-delete{
+    width: 50px !important;
+}

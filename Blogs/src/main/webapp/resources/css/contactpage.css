@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* ----------------------------------- */
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 1300px;
+    background-color: white;
+    z-index: 100;
+}
+.header .blog{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 200%;
+    color: gray;
+}
+.header a{
+    font-weight: bold;
+    color: white !important;
+}
+.header a:hover{
+    font-weight: bold;
+    color: teal !important;
+    background-color: white;
+}
+#contact{
+    background-color: white;
+    color: teal !important;
+}
+.body-content{
+    margin-top: 90px;
+    padding: 20px;
+    width: 100%;
+}
+.navbar{
+    padding: 1px !important;
+}
+.end{
+    padding: 20px;
+}
+.end-signature {
+    border-top: 2px solid gray;
+    text-align: center;
+}
+.page-direction{
+    font-size: 80%;
+}
+.contact{
+    padding-left: 20px;
+}
+.contact-title{
+    font-size: 200%;
+}
+.contact-content{
+    font-size: 80%;
+}
+.contact-form label{
+    margin-top: 8px;
+}
+
+.submit{
+    margin: 8px 0px;
+}
